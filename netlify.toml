@@ -1,9 +1,0 @@
-[build]
-  # No hay comando de build: publicamos directamente la raíz
-  publish = "."
-
-# Si quisieras SPAs con rutas internas, podrías habilitar fallback:
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
